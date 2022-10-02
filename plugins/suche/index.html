@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.busliniensuche.de/plugins/suche/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Oct 2022 09:43:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="language" content="de">
+<meta name="robots" content="noindex, nofollow" />
+<meta name="description" content="lll&#x27A4; Alle Fernbusse auf einen Blick: Preis und Komfort hier vergleichen. Busliniensuche ist die Fernbus-Suchmaschine f&#xFC;r Europa: Einfach. Vollst&#xE4;ndig. &#xDC;bersichtlich." />
+<title>Fernbus | Busverbindungen und Fernbuslinien f&#xFC;r Fernbusse in Deutschland</title>
+<link type="text/css" rel="stylesheet" href="https://www.busliniensuche.de/webpack/plugin-styles.min.css?v=210150" />
+<style>
+
+    </style>
+<script>
+        (function() {
+            window.globalize = window.globalize || {};
+            window.globalize.shortCulture = 'de';
+            window.globalize.longCulture = 'de-de';
+            window.globalize.texts = window.globalize.texts || {};
+            window.globalize.texts.confirmDeparture = 'Hinfahrt bestätigen';
+            window.globalize.texts.confirmReturn = 'Rückfahrt bestätigen';
+            window.globalize.texts.passengerPopover = 'Einige Anbieter unterstützen eine Suche für über 5 Personen nicht.<br>Wir empfehlen daher zunächst für 5 Personen zu suchen, um einen günstigen Anbieter zu identifizieren.';
+            window.globalize.texts.passengerPopoverHint = '<br><strong>Tipp:</strong> Unsere speziellen Angebote für Gruppen gibt es <a href=\"{0}\">hier</a>.';
+        })();
+    </script>
+<script type="text/javascript" src="https://www.busliniensuche.de/webpack/datepicker.min.js?v=210150" defer></script>
+</head>
+<body>
+<div id="datepicker-position-element"></div>
+<div id="plugin-form-complete" class="panel panel-default" style="margin:0">
+<div class="panel-body">
+<form action="https://www.busliniensuche.de/suche/" id="plugin-form" method="get" target="_blank"> <fieldset>
+<div class="row">
+<div class="col-xs-18">
+
+<label for="From" class="no-margin">
+Abfahrtsort
+</label>
+<input class="form-control" id="From" name="From" placeholder="Abfahrtsort eingeben" required="" tabindex="0" type="text" value="" />
+<ul class="dropdown-menu search-form-dropdown-menu" role="menu"></ul>
+
+</div>
+<div class="col-xs-18">
+
+<label for="To" class="no-margin">
+Zielort
+</label>
+<input class="form-control" id="To" name="To" placeholder="Zielort eingeben" required="" tabindex="0" type="text" value="" />
+<ul class="dropdown-menu dropdown-menu-right search-form-dropdown-menu" role="menu"></ul>
+
+</div>
+</div>
+<div class="row">
+<div class="col-xs-18">
+
+<label for="When" class="no-margin">
+Abfahrtsdatum
+</label>
+<input id="When" type="text" name="When" class="form-control input-date-when input-ml hide-ms-clear" autocomplete="off" tabindex="0" data-initial-value="2022-10-02" placeholder="Abfahrtsdatum" required />
+
+</div>
+<div class="col-xs-18">
+
+<label for="WhenReturn" class="no-margin">
+R&#xFC;ckfahrtsdatum
+</label>
+<input id="WhenReturn" type="text" name="WhenReturn" class="form-control input-date-when-return input-ml hide-ms-clear" autocomplete="off" tabindex="0" placeholder="Zur&#xFC;ck (optional)" />
+
+</div>
+</div>
+<div class="row">
+<div class="col-xs-18">
+<label for="Passengers" class="no-margin">
+Personen
+</label>
+<select name="Passengers" id="Passengers" class="form-control" required>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+</div>
+<div class="col-xs-18">
+<button id="button" type="submit" class="btn btn-primary btn-ml" tabindex="0">Suche Starten</button>
+</div>
+</div>
+<input checked="checked" data-val="true" data-val-required="The isWidget field is required." id="isWidget" name="isWidget" style="display: none" type="checkbox" value="true" />
+</fieldset>
+<input name="isWidget" type="hidden" value="false" /></form> </div>
+</div>
+<script type="text/javascript">
+        var setupPaths = setupPaths || function (bls) {
+            bls.setBaseContentPath('https://www.busliniensuche.de/');
+            bls.setBasePath('https://www.busliniensuche.de/');
+            bls.setApiBasePath('https://www.busliniensuche.de/api2/');
+            bls.setAutocompleteBasePath('https://autocompletion.green-parrot.net/');
+        };
+    </script>
+<script type="text/javascript" src="https://www.busliniensuche.de/webpack/scripts.de-de.min.js?v=210150"></script>
+<script type="text/javascript" src="https://www.busliniensuche.de/webpack/core.min.js?v=210150"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'753423ec5f7a85c5',m:'YGtdpw7wosXLu4RaDN14cmc42tfA8XZht3MLmPicrSE-1664616214-0-AZebjsoJw90SeTyPyi2VNPOpU/00VuUBer6qFdSmJVh1HYa32aEqTWs1IRD84+RZSGtEoPOhVuJGpuEHPgBV6kluuuJaXrNmyY6sPnFXz8ly1GMtztZVAasZD1hx1YeB5w==',s:[0x53b6d483e8,0x41de87f687],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='https://www.busliniensuche.de/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from www.busliniensuche.de/plugins/suche/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Oct 2022 09:43:39 GMT -->
+</html>
